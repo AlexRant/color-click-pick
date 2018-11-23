@@ -51,8 +51,3 @@ function setColors(){
 		squares[i].textContent = colors[i];
 	}
 }
-
-//IV - switch background
-function bgSwitch(){
-
-}

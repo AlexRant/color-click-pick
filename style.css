@@ -53,7 +53,7 @@ body {
 #attention {
 	font-size: 25px;
 	color: rgb(234, 222, 159);
-	transition: all 0.3s;
+	transition: all 0.1s;
 }
 
 #click {
@@ -91,8 +91,16 @@ body {
 	color: white;
 }
 
+#click:active {
+	color: steelblue;
+}
+
 #switch-background:hover {
 	color: white;
+}
+
+#switch-background:active {
+	color: steelblue;
 }
 
 #attention:hover {
@@ -103,3 +111,4 @@ body {
 	/*color: rgb(234, 222, 159);*/
 	color: gray;
 }
+
