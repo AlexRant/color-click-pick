@@ -1,5 +1,6 @@
 var body = document.querySelector("body");
 var squares = document.querySelectorAll(".square");
+var clicker = document.querySelector("#attention");
 var button = document.querySelector("#click");
 var bgButton = document.querySelector("#switch-background");
 
@@ -7,6 +8,10 @@ var bgButton = document.querySelector("#switch-background");
 setColors();
 
 button.addEventListener("click", function(){
+	setColors();
+});
+
+clicker.addEventListener("click", function(){
 	setColors();
 });
 

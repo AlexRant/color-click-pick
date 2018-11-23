@@ -98,3 +98,8 @@ body {
 #attention:hover {
 	color: yellow;
 }
+
+#attention:active {
+	/*color: rgb(234, 222, 159);*/
+	color: gray;
+}
